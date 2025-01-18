@@ -32,7 +32,7 @@ for tea in tea_varities:
 
 # this will print all the items with - sign
 for tea in tea_varities:
-     print(tea,end="-")
+     print(end="-")
 
 # checking if character is present in list or not 
 
@@ -61,3 +61,11 @@ tea_varities_copy = tea_varities.copy()
 tea_varities_copy.append("last in copy")
 print(tea_varities_copy)
 
+
+# creating a squared list 
+squared_list = [x**2 for x in range(10)]
+print(squared_list)
+
+# creating a cube list 
+cube_list = [ x**3 for x in range(5)]
+print(cube_list)
