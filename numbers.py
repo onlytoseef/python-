@@ -1,8 +1,10 @@
 import math
+
 math.floor(2.5)
 # floor will move to the lowest nearest value 
 math.ceil(2.6)
 # ceil will move to the highest nearest value 
+
 math.trunc(-2.6)
 # trunc will move towards the zero of number line
 
